@@ -33,7 +33,7 @@ A dedicated Resource Group was created to logically isolate all SOC-related comp
 - RBAC scoping
 - Cost tracking
 
-!<img width="1370" height="784" alt="image" src="https://github.com/user-attachments/assets/8dedcbca-cefa-439e-b9dc-8dbbc2f6c6c4" />
+<img width="1370" height="784" alt="image" src="https://github.com/user-attachments/assets/8dedcbca-cefa-439e-b9dc-8dbbc2f6c6c4" />
 
 
 ---
@@ -52,7 +52,7 @@ A Virtual Network (VNet) was deployed to simulate a production-like enterprise e
 - Supports traffic visibility
 - Simulates realistic attack surface
 
-![VNet](images/02-vnet.png)
+<img width="735" height="355" alt="image" src="https://github.com/user-attachments/assets/f34f21ce-4f71-41d3-ad47-d88d0f38f2e0" />
 
 ---
 
@@ -71,7 +71,7 @@ The VM was intentionally exposed to generate:
 - Brute-force patterns
 - Security event telemetry
 
-![Virtual Machine](images/03-vm.png)
+<img width="468" height="321" alt="image" src="https://github.com/user-attachments/assets/fb01e431-cd4b-42d2-879e-739684ac8a94" />
 
 ---
 
@@ -84,7 +84,7 @@ A Log Analytics Workspace was created as the centralized log repository.
 - Enables KQL querying
 - Backend requirement for Sentinel
 
-![Log Analytics](images/04-log-analytics.png)
+<img width="468" height="388" alt="image" src="https://github.com/user-attachments/assets/57318c45-1455-468f-a28f-4ae52e47eb40" />
 
 ---
 
@@ -97,6 +97,9 @@ Microsoft Sentinel was enabled on top of the Log Analytics Workspace.
 - Log correlation
 - Incident generation
 - Investigation tools
+
+<img width="468" height="245" alt="image" src="https://github.com/user-attachments/assets/ebea8ab4-e8af-4b13-aca5-a6f3a7e74ef6" />
+
 
 ![Sentinel](images/05-sentinel.png)
 
@@ -116,7 +119,9 @@ Provides full visibility across:
 - Control plane
 - Endpoint level events
 
-![Data Connectors](images/06-data-connectors.png)
+<img width="468" height="245" alt="image" src="https://github.com/user-attachments/assets/a5405e73-42dd-4b2e-8d06-1f89dbb84a77" />
+
+<img width="468" height="317" alt="image" src="https://github.com/user-attachments/assets/c050f2c6-e53b-44df-9ac9-619a3804e4b9" />
 
 ---
 
@@ -133,7 +138,11 @@ KQL queries were executed to validate ingestion and analyze suspicious activity.
 - Verified ingestion pipeline integrity
 - Confirmed detection feasibility
 
-![KQL Query](images/07-kql.png)
+<img width="468" height="231" alt="image" src="https://github.com/user-attachments/assets/8b8bdee7-e6b9-4d05-a43a-059e6c34393d" />
+
+<img width="468" height="254" alt="image" src="https://github.com/user-attachments/assets/f91c6068-6aaa-43d3-93a7-64e0aa18a770" />
+
+
 
 ---
 
@@ -146,7 +155,9 @@ Custom analytics rules were created to detect brute-force login patterns.
 - Multiple failed logins within a time window
 - Automatic incident generation
 
-![Analytics Rule](images/08-analytics-rule.png)
+<img width="468" height="269" alt="image" src="https://github.com/user-attachments/assets/5c4ce0ec-c7ef-4d89-ab2e-c7f4ee1a4c2c" />
+
+
 
 ---
 
@@ -159,7 +170,9 @@ Generated incidents were analyzed using Sentinel’s investigation tools.
 - Timeline correlation
 - Suspicious behavior validation
 
-![Incident Investigation](images/09-incident.png)
+<img width="468" height="91" alt="image" src="https://github.com/user-attachments/assets/dc0af4e5-9e5f-4a92-9133-50d206eadf06" />
+<img width="468" height="108" alt="image" src="https://github.com/user-attachments/assets/c7aeb884-b9c4-4c71-a01a-d3f402500dce" />
+
 
 ---
 
@@ -174,10 +187,13 @@ Generated incidents were analyzed using Sentinel’s investigation tools.
 - Incident Investigation
 - Threat Pattern Analysis
 
+
 ---
 
 ## Conclusion
 
 This lab demonstrates the practical implementation of a cloud-native SOC using Microsoft Sentinel, covering infrastructure deployment, telemetry ingestion, detection logic creation, and incident investigation workflow.
+<img width="468" height="264" alt="image" src="https://github.com/user-attachments/assets/f4ce5ac5-d90e-4e7e-8d0e-470bf570e02d" />
+
 
 It reflects core Security Engineer responsibilities in a modern cloud environment.
