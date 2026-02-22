@@ -33,7 +33,8 @@ A dedicated Resource Group was created to logically isolate all SOC-related comp
 - RBAC scoping
 - Cost tracking
 
-![Resource Group](images/01-resource-group.png)
+![Resource Group](<img width="1370" height="784" alt="image" src="https://github.com/user-attachments/assets/ef5b1361-c287-46c0-8cca-2bedefa0406a" />
+)
 
 ---
 
